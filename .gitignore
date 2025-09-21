@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+myenv/
+myenv311/
+dpcganenv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (usually too large for Git)
+*.pkl
+*.feather
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.xlsx
+
+# Model files and checkpoints
+*.pth
+*.pt
+*.model
+*.joblib
+checkpoints/
+checkpoints_*/
+checkpoints_1/
+checkpoints_3/
+checkpoints_4/
+runs/
+models/
+
+# Generated data directories
+csv_files/
+filtered_data/
+metadata/
+iframe_figures/
+images/
+# shape_files/
+# 4th_Review_2007_2017_All_Scotland_wards/
+
+# Logs and error files
+*.log
+*.err
+jupyter.err
+jupyter.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Project-specific large files
+raw_incident_data*.feather
+processed_data_v*.pkl
+DataZone2011lookup_*.csv
+
+# Custom directories for this project
+tabtransformer/
+DPCTGAN/
+
